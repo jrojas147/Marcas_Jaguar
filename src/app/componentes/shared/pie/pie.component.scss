@@ -5,10 +5,9 @@
     display: grid;
     grid-template-columns: $margenContenidoSmall auto $margenContenido;
     padding: 10px 0;
-    color: white;
+    color: rgb(0, 0, 0);
     @include Asmall(){
-        color: black;
-        grid-template-columns: $margenContenido auto $margenContenido;
+        grid-template-columns: 20% auto 20% !important;
     }
     @include tabletLaptop(){
         grid-template-columns: $margenContenidoSmall auto $margenContenido;
